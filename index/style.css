@@ -1,0 +1,23 @@
+body{
+	font: 1em Calibri,Arial,Helvetica,sans-serif;
+	width:1200px;
+	margin:auto;
+	background: #fff;
+}
+rect{
+	shape-rendering:crispEdges;
+}
+
+.before , .after {
+	top: 10px;
+	display: block;
+	position: absolute;
+}
+
+.before {
+	left: 5px;
+}
+
+.after{
+	left: 470px;
+}
